@@ -31,7 +31,7 @@ export default function TodoItem({ todoItem }) {
             <h1 className="text-2xl">{title}</h1>
             <h1 className="text-sm">{description}</h1>
             
-            <h1 className="text-sm">{timeAgo}</h1>
+            <h1 className="text-xs ">Created {timeAgo}</h1>
             <div className="space-x-5">
                 <Link onClick={handleDelete} className="mr-auto hover:bg-red-700 bg-red-600 text-white px-5 py-1 rounded-md">
                     Delete
